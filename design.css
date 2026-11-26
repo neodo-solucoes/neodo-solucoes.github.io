@@ -1,0 +1,89 @@
+/* NEODO — direção visual editorial. Fontes locais, sem fotografias de banco ou ilustrações genéricas. */
+@font-face{font-family:Manrope;src:url("./fonts/manrope-variable.ttf") format("truetype");font-weight:200 800;font-style:normal;font-display:swap}
+:root{--azul:#002760;--deep:#001a40;--ambar:#ffbb01;--ink:#121d2b;--muted:#566476;--line:#dce2e9;--soft:#f4f6f8;--gutter:clamp(20px,5.2vw,80px);--section:clamp(64px,8vw,122px);--wrap:1280px;--font:Manrope,"Segoe UI",Arial,sans-serif}
+body{font-family:var(--font);font-size:16px;line-height:1.7;letter-spacing:-.012em}
+h1,h2,h3{font-weight:700;line-height:1.13;letter-spacing:-.043em}
+h2{font-size:clamp(2rem,3.65vw,3.65rem);max-width:23ch;line-height:1.1}
+h3{font-size:clamp(1.15rem,1.7vw,1.5rem);letter-spacing:-.027em}
+.topo{background:white;border-bottom:1px solid var(--line)}
+.topo__in{min-height:88px;gap:38px}
+.topo__logo img{width:177px}
+.topo__nav{gap:clamp(18px,2.5vw,36px)}
+.topo__nav a{font-size:14px;font-weight:650;color:var(--muted)}
+.topo__nav a:hover,.topo__nav a[aria-current=page]{color:var(--azul)}
+.btn{min-height:52px;padding:12px 24px;border-radius:3px;font-size:14px;font-weight:750;gap:14px}
+.btn--claro,.btn--contorno{border-color:#b5c1d0}
+.arrow{font-size:1.1em;line-height:1}
+.neo-hero{background:white}
+.neo-hero-grid{gap:clamp(40px,6vw,90px);padding-block:clamp(70px,8vw,130px)}
+.neo-two{grid-template-columns:minmax(0,1.18fr) minmax(0,1fr)}
+.neo-hero--home .neo-hero-grid{padding-block:clamp(50px,6vw,98px)}
+.neo-hero--home h1{font-size:clamp(3.1rem,5.05vw,5.45rem);font-weight:700;line-height:1.02;letter-spacing:-.065em;max-width:15ch;margin-bottom:26px}
+.neo-hero h1 em{font-style:normal;color:var(--azul)}
+.neo-hero--inner{background:var(--soft)}
+.neo-hero--inner .neo-hero-grid{padding-block:clamp(70px,9vw,142px)}
+.neo-hero--inner h1{font-size:clamp(2.8rem,5.5vw,5.1rem);letter-spacing:-.055em;max-width:18ch;margin-bottom:24px}
+.neo-kicker{font-size:11px;font-weight:800;letter-spacing:.14em;gap:10px;margin-bottom:22px}
+.neo-kicker:before{width:19px;height:3px;background:var(--ambar)}
+.neo-lead{max-width:49ch;font-size:clamp(1.04rem,1.4vw,1.22rem);line-height:1.8}
+.brand-art{position:relative;min-width:0;aspect-ratio:1/1.02;background:var(--deep);overflow:hidden;display:grid;place-items:center;isolation:isolate}
+.brand-art__grid{position:absolute;inset:0;background:linear-gradient(90deg,#ffffff10 1px,transparent 1px),linear-gradient(#ffffff10 1px,transparent 1px);background-size:25% 25%;z-index:-1}
+.brand-art:before{content:"";position:absolute;width:76%;height:76%;border:1px solid #ffffff20;transform:rotate(-18deg);z-index:-1}
+.brand-art:after{content:"";position:absolute;right:0;top:0;width:16%;height:3px;background:var(--ambar)}
+.brand-art__mark{width:54%;aspect-ratio:996/843;display:grid;place-items:center}
+.brand-art__mark img{width:100%;height:auto;filter:brightness(0) invert(1)}
+.brand-art__caption{position:absolute;left:7%;bottom:6%;right:7%;display:flex;align-items:center;gap:9px;font-size:clamp(8px,.65vw,11px);font-weight:650;letter-spacing:.1em;color:#dce6f5;white-space:nowrap}
+.brand-art__caption i{width:15px;height:1px;background:var(--ambar);flex:none}
+.secao h2{margin-bottom:clamp(35px,4.5vw,60px)}
+.neo-intro{margin:-25px 0 38px;max-width:73ch}
+.neo-grid{gap:0 36px}
+.neo-card{border-top:1px solid #bbc7d5;padding:26px 0 30px;gap:0;box-shadow:none;background:transparent;border-radius:0}
+.neo-card>div{gap:13px}
+.neo-card h3{font-size:clamp(1.25rem,1.85vw,1.65rem);font-weight:700}
+.neo-card p{font-size:1rem;line-height:1.7}
+.neo-card a,.text-link{display:inline-flex;align-items:center;gap:8px;margin-top:auto;padding-top:12px;font-size:14px;font-weight:750;text-decoration:none;color:var(--azul)}
+.neo-card a:hover,.text-link:hover{text-decoration:underline}
+.neo-segments{counter-reset:segment;gap:0;background:transparent;border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;overflow:visible}
+.neo-segments .neo-card{border:0;border-right:1px solid var(--line);padding:clamp(24px,3.5vw,44px);min-height:248px;counter-increment:segment;background:transparent}
+.neo-segments .neo-card:first-child{padding-left:0}
+.neo-segments .neo-card:last-child{border-right:0}
+.neo-segments .neo-card:before{content:"0" counter(segment);display:block;font-size:12px;font-weight:750;letter-spacing:.12em;color:var(--muted);margin-bottom:30px}
+.neo-segments .neo-card h3{font-size:clamp(1.6rem,2.8vw,2.4rem)}
+.neo-competencies{grid-template-columns:repeat(2,minmax(0,1fr));counter-reset:skill;gap:0 clamp(26px,5vw,76px)}
+.neo-competencies .neo-card{display:grid;grid-template-columns:40px minmax(0,1fr);gap:14px;counter-increment:skill;padding:25px 0 30px}
+.neo-competencies .neo-card:before{content:"0" counter(skill);font-size:12px;font-weight:750;color:var(--muted);letter-spacing:.07em;padding-top:6px}
+.neo-applications .neo-card:before{content:"0" counter(project) " / APLICAÇÃO";display:block;font-size:10px;letter-spacing:.12em;font-weight:750;color:var(--muted);margin-bottom:20px}
+.neo-more{margin-top:20px}
+.neo-statement{border-top:1px solid var(--line);padding-block:clamp(60px,7vw,100px)}
+.neo-statement__in{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:end;gap:clamp(30px,7vw,100px)}
+.neo-statement p:not(.neo-kicker){color:var(--muted);font-size:1.1rem;max-width:50ch}
+.neo-statement .text-link{margin-top:20px}
+.duas h2{margin:0}
+.etapas,.difs,.canais{gap:clamp(22px,3vw,40px)}
+.etapas li,.difs li,.canais li{padding:25px 0;gap:12px}
+.etapas li:last-child{border-top:3px solid var(--ambar);padding-top:23px}
+.difs li{border-color:#5b7393}
+.problema{background:white;padding-block:clamp(54px,7vw,100px);border-bottom:1px solid var(--line);border-top:0}
+.problema .declaracao{font-size:clamp(1.15rem,2vw,1.6rem)}
+.servicos li{padding:24px 0}
+.faq details{padding:20px 0}
+.faq summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px;font-weight:700}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--azul);font-size:22px;font-weight:500;flex:none}
+.faq details[open] summary:after{content:"−"}
+.neo-close{padding-block:clamp(60px,8vw,112px)}
+.neo-close h2{font-size:clamp(2.25rem,4.5vw,4.35rem);margin-bottom:20px}
+.neo-close .btn--ambar:hover{background:#ffd05c;border-color:#ffd05c}
+.form{gap:20px}.form label{gap:8px;font-weight:700}
+.form input:not([type=radio]),.form textarea{border-color:#b7c3d2;border-radius:3px;padding:13px 14px;min-height:50px}
+.form textarea{resize:vertical}
+.email-copia__btn{border-radius:3px;padding:10px 13px}
+.rodape{background:white;padding:clamp(48px,6vw,82px) 0 34px}
+.rodape__in{gap:32px 60px}
+.rodape__nav a{font-weight:650}
+@media(max-width:1100px){.topo__in{gap:22px}.topo__nav{gap:18px}.topo__logo img{width:150px}.neo-hero--home h1{font-size:clamp(2.8rem,5.1vw,4.5rem)}}
+@media(max-width:920px){.neo-two,.duas,.neo-statement__in{grid-template-columns:1fr}.brand-art{aspect-ratio:1.55}.brand-art__mark{width:34%}.neo-hero--home h1{max-width:18ch}.neo-grid,.etapas,.difs,.canais{grid-template-columns:repeat(2,minmax(0,1fr))}.neo-segments{grid-template-columns:repeat(3,minmax(0,1fr))}.neo-segments .neo-card{padding:24px 18px;min-height:0}.neo-segments .neo-card:first-child{padding-left:0}}
+@media(max-width:900px){.topo__in{min-height:74px;padding-block:12px}.topo__nav{box-shadow:none;border-bottom:1px solid var(--line)}.topo__nav a{padding:15px 0}}
+@media(max-width:620px){.topo__in{gap:10px;min-height:68px}.topo__logo img{width:125px}.topo__wa{font-size:12px;min-height:42px;padding:10px 12px}.topo__menu-btn{width:40px}.neo-hero--home .neo-hero-grid{padding-block:48px}.neo-hero--home h1{font-size:clamp(2.65rem,10vw,3.6rem);letter-spacing:-.055em}.neo-hero--inner h1{font-size:clamp(2.45rem,9vw,3.5rem)}.neo-hero-grid{gap:30px}.brand-art{aspect-ratio:1.42}.brand-art__mark{width:39%}.neo-grid,.neo-segments,.neo-competencies,.etapas,.difs,.canais{grid-template-columns:1fr}.neo-segments .neo-card,.neo-segments .neo-card:first-child{padding:24px 0;border-right:0;border-bottom:1px solid var(--line)}.neo-segments .neo-card:last-child{border-bottom:0}.neo-segments .neo-card:before{margin-bottom:14px}.neo-competencies .neo-card{grid-template-columns:32px 1fr;gap:10px}.neo-hero .acoes .btn,.neo-close .acoes .btn{width:100%}.neo-intro{margin-top:-15px}}
+@media(max-width:360px){.topo__logo img{width:108px}.topo__wa{padding:9px 8px}.topo__wa .arrow{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
