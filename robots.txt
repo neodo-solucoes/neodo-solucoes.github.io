@@ -1,4 +1,5 @@
-User-Agent: *
+User-agent: *
 Allow: /
-
+Disallow: /src/
+Disallow: /scripts/
 Sitemap: https://neodo.com.br/sitemap.xml
