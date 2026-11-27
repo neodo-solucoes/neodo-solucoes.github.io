@@ -12,6 +12,7 @@ import heroSobre from '../assets/img/hero-sobre.jpg';
 import heroContato from '../assets/img/hero-contato.jpg';
 import segIndustria from '../assets/img/seg-industria.jpg';
 import segResidencial from '../assets/img/seg-residencial.jpg';
+import capaResidencial from '../assets/img/capa-residencial.jpg';
 import segNegocios from '../assets/img/seg-negocios.jpg';
 import appMonitoramento from '../assets/img/app-monitoramento.jpg';
 import appRetrofit from '../assets/img/app-retrofit.jpg';
@@ -42,10 +43,12 @@ export const img = {
   heroIndustria: { src: heroIndustria, alt: 'Linha de produção automatizada com braços robóticos' },
   heroSobre: { src: heroSobre, alt: 'Engenheiros analisando um diagrama em monitor no laboratório' },
   heroContato: { src: heroContato, alt: 'Reunião de equipe diante de tela com projeto de automação' },
-  heroResidencial: null, // sem foto: usa o fundo animado. Coloque { src, alt } para usar foto.
+  // A mesma foto é usada na capa da página e no card da área (posicao = parte da foto que aparece no recorte).
+  heroResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
   heroNegocios: null,
   segIndustria: { src: segIndustria, alt: 'Instalação industrial com tubulações e estruturas metálicas' },
-  segResidencial: { src: segResidencial, alt: 'Residência moderna iluminada ao anoitecer' },
+  segResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
+  featResidencial: { src: segResidencial, alt: 'Residência moderna iluminada ao anoitecer' },
   segNegocios: { src: segNegocios, alt: 'Fachada de edifício comercial com escritórios iluminados' },
   appMonitoramento: { src: appMonitoramento, alt: 'Técnico acompanhando indicadores de produção em vários monitores' },
   appRetrofit: { src: appRetrofit, alt: 'Motor elétrico industrial em close' },

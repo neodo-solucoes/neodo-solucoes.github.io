@@ -6,7 +6,7 @@ export default function Hero({ image, title, text, children }) {
     <section className="hero">
       {image ? (
         <>
-          <img className="hero__img" src={image.src} alt={image.alt} fetchpriority="high" />
+          <img className="hero__img" src={image.src} alt={image.alt} fetchpriority="high" style={image.posicao ? { objectPosition: image.posicao } : undefined} />
           <div className="hero__fade" aria-hidden="true" />
         </>
       ) : <Wave />}

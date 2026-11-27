@@ -32,7 +32,7 @@ export default function Residencial() {
         <Grid min={320} gap={18}>{solucoes.map(([icon, title, text], i) => <IconCard key={title} index={i} icon={icon} title={title} text={text} />)}</Grid>
       </Section>
       <Section id="obra" title="Para obra nova ou reforma" description="Planejar a parte elétrica e a automação junto com a obra evita retrabalho e custos extras.">
-        <Feature image={img.segResidencial} title="Uma casa pensada para o seu jeito de viver"
+        <Feature image={img.featResidencial} title="Uma casa pensada para o seu jeito de viver"
           text="A NEODO avalia o imóvel, entende a rotina dos moradores e propõe só o que faz sentido para a casa."
           checks={['Instalação elétrica segura e bem dimensionada', 'Automação que funciona com ou sem internet, conforme o projeto', 'Controle pelo celular e por voz']} />
       </Section>

@@ -7,7 +7,7 @@ export default function PhotoCard({ image, title, text, icon, to, index = 0 }) {
   const corpo = (
     <>
       <div className="card-foto__img-wrap">
-        <img className="card-foto__img" src={image.src} alt={image.alt} loading="lazy" />
+        <img className="card-foto__img" src={image.src} alt={image.alt} loading="lazy" style={image.posicao ? { objectPosition: image.posicao } : undefined} />
       </div>
       <div className="card-foto__corpo">
         {icon && <Icon name={icon} size={30} className="card__icone" />}
