@@ -4,7 +4,7 @@ import Icon from './Icon.jsx';
 import { site } from '../config/site.js';
 
 const colunas = [
-  { titulo: 'Soluções', links: ['Engenharia elétrica', 'Eletrônica embarcada', 'Automação industrial', 'IoT e monitoramento', 'Software e integrações', 'Inteligência artificial'].map((t) => [t, '/solucoes']) },
+  { titulo: 'Soluções', links: ['Engenharia e conformidade', 'Eletrônica embarcada', 'Automação industrial', 'IoT e monitoramento', 'Software e integrações', 'Inteligência artificial'].map((t) => [t, '/solucoes']) },
   { titulo: 'Atuação', links: [['Indústria', '/industria'], ['Negócios', '/negocios'], ['Residencial', '/residencial']] },
   { titulo: 'Institucional', links: [['Sobre a NEODO', '/sobre'], ['Contato', '/contato']] },
 ];

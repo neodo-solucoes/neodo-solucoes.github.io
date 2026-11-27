@@ -10,7 +10,7 @@ import { img } from '../config/imagens.js';
 import { segmentos } from './_shared.js';
 
 const competencias = [
-  ['zap', 'Engenharia elétrica', 'Projeto, instalação e modernização de sistemas elétricos, com segurança, eficiência e conformidade.'],
+  ['zap', 'Engenharia e conformidade', 'Projetos e instalações elétricas, adequação às NR-10, NR-12 e NR-35, auditorias internas, segurança do trabalho e treinamentos.'],
   ['cpu', 'Eletrônica embarcada', 'Desenvolvimento de hardware e firmware para controle, aquisição de dados e aplicações industriais.'],
   ['arm', 'Automação industrial', 'Controle, supervisão e otimização de processos, aumentando produtividade, qualidade e rastreabilidade.'],
   ['radio', 'IoT e monitoramento', 'Conectividade de equipamentos, sensores e ambientes em tempo real, com visibilidade e gestão remota.'],
