@@ -32,7 +32,7 @@ export default function Negocios() {
         <Grid min={320} gap={18}>{solucoes.map(([icon, title, text], i) => <IconCard key={title} index={i} icon={icon} title={title} text={text} />)}</Grid>
       </Section>
       <Section id="ganhos" title="Mais tempo para o que importa" description="Automatizar o que é repetitivo libera a equipe para atender melhor e vender mais.">
-        <Feature image={img.segNegocios} title="Do atendimento à gestão, sem retrabalho"
+        <Feature image={img.featNegocios} title="Do atendimento à gestão, sem retrabalho"
           text="A NEODO entende como a empresa funciona hoje e desenvolve a tecnologia que encaixa nessa rotina."
           checks={['Atendimento automático no WhatsApp e no site', 'Dados de vendas e operação reunidos num só lugar', 'Sistemas que conversam entre si']} />
       </Section>

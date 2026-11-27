@@ -14,6 +14,8 @@ import segIndustria from '../assets/img/seg-industria.jpg';
 import segResidencial from '../assets/img/seg-residencial.jpg';
 import capaResidencial from '../assets/img/capa-residencial.jpg';
 import segNegocios from '../assets/img/seg-negocios.jpg';
+import capaNegocios from '../assets/img/capa-negocios.jpg';
+import cardNegocios from '../assets/img/card-negocios.jpg';
 import appMonitoramento from '../assets/img/app-monitoramento.jpg';
 import appRetrofit from '../assets/img/app-retrofit.jpg';
 import appDados from '../assets/img/app-dados.jpg';
@@ -45,11 +47,12 @@ export const img = {
   heroContato: { src: heroContato, alt: 'Reunião de equipe diante de tela com projeto de automação' },
   // A mesma foto é usada na capa da página e no card da área (posicao = parte da foto que aparece no recorte).
   heroResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
-  heroNegocios: null,
+  heroNegocios: { src: capaNegocios, alt: 'Loja de tecnologia com atendente mostrando informações no computador para uma cliente no balcão', posicao: '88% center' },
   segIndustria: { src: segIndustria, alt: 'Instalação industrial com tubulações e estruturas metálicas' },
   segResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
   featResidencial: { src: segResidencial, alt: 'Residência moderna iluminada ao anoitecer' },
-  segNegocios: { src: segNegocios, alt: 'Fachada de edifício comercial com escritórios iluminados' },
+  segNegocios: { src: cardNegocios, alt: 'Atendente de loja de tecnologia ajudando uma cliente no balcão' },
+  featNegocios: { src: segNegocios, alt: 'Fachada de edifício comercial com escritórios iluminados' },
   appMonitoramento: { src: appMonitoramento, alt: 'Técnico acompanhando indicadores de produção em vários monitores' },
   appRetrofit: { src: appRetrofit, alt: 'Motor elétrico industrial em close' },
   appDados: { src: appDados, alt: 'Notebook exibindo painel de indicadores em ambiente industrial' },
