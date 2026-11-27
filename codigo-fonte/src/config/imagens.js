@@ -40,7 +40,7 @@ export const logos = {
 };
 
 export const img = {
-  heroHome: { src: heroHome, alt: 'Braço robótico amarelo sobre esteira com peças metálicas, ícones de dados e IA e um globo digital', posicao: '100% center' },
+  heroHome: { src: heroHome, alt: 'Braço robótico amarelo sobre esteira com peças metálicas, à frente de um globo digital e de ícones de nuvem, dados, gráficos, automação e IA', posicao: '100% center' },
   heroSolucoes: { src: heroSolucoes, alt: 'Painel elétrico aberto ao lado de monitor com indicadores industriais' },
   heroIndustria: { src: heroIndustria, alt: 'Linha de produção automatizada com braço robótico amarelo e câmera de inspeção sobre a esteira', posicao: '72% center' },
   heroSobre: { src: heroSobre, alt: 'Equipe de engenharia da NEODO analisando o modelo 3D de uma peça em monitor, dentro de uma fábrica', posicao: '80% center' },
