@@ -1,0 +1,27 @@
+/* Cores, fontes e medidas do site. Mude aqui para alterar o visual inteiro. */
+:root {
+  --cor-marinho: #0A1F3D;
+  --cor-marinho-escuro: #061730;
+  --cor-amarelo: #FFBE1A;
+  --cor-amarelo-escuro: #E0A100;
+  --cor-texto: #0B1B33;
+  --cor-texto-suave: #4B5A70;
+  --cor-texto-claro: #D3DCE8;
+  --cor-rodape-texto: #B9C6DA;
+  --cor-borda: #E3E8EF;
+  --cor-divisor: #C9D2DE;
+  --cor-onda: #3CCBFF;
+  --cor-erro: #B42318;
+  --cor-sucesso: #067647;
+
+  --fonte: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+
+  --largura-max: 1200px;
+  --raio: 14px;
+  --raio-botao: 10px;
+  --sombra: 0 8px 24px rgba(10, 31, 61, 0.06);
+  --sombra-hover: 0 18px 40px rgba(10, 31, 61, 0.14);
+
+  --duracao: 0.6s;
+  --curva: cubic-bezier(0.22, 1, 0.36, 1);
+}

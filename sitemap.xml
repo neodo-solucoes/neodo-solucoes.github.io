@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://neodo.com.br/</loc></url>
-<url><loc>https://neodo.com.br/industria.html</loc></url>
-<url><loc>https://neodo.com.br/residencial.html</loc></url>
-<url><loc>https://neodo.com.br/negocios.html</loc></url>
-<url><loc>https://neodo.com.br/sobre.html</loc></url>
-<url><loc>https://neodo.com.br/solucoes.html</loc></url>
-<url><loc>https://neodo.com.br/projetos.html</loc></url>
-<url><loc>https://neodo.com.br/conteudos.html</loc></url>
-<url><loc>https://neodo.com.br/contato.html</loc></url>
-<url><loc>https://neodo.com.br/privacidade.html</loc></url>
+  <url><loc>https://neodo.com.br/</loc></url>
+  <url><loc>https://neodo.com.br/solucoes</loc></url>
+  <url><loc>https://neodo.com.br/industria</loc></url>
+  <url><loc>https://neodo.com.br/negocios</loc></url>
+  <url><loc>https://neodo.com.br/residencial</loc></url>
+  <url><loc>https://neodo.com.br/sobre</loc></url>
+  <url><loc>https://neodo.com.br/contato</loc></url>
 </urlset>

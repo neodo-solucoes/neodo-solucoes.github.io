@@ -1,0 +1,44 @@
+/* Animações do site. Para desligar uma, apague a regra correspondente. */
+
+@keyframes subir { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+@keyframes surgir { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+@keyframes descer { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
+@keyframes aproximar { from { transform: scale(1.12); } to { transform: scale(1); } }
+@keyframes fluir { to { stroke-dashoffset: -14; } }
+@keyframes empurrar { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(4px); } }
+@keyframes crescer { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes brilho-passa {
+  0% { transform: translateX(-140%) skewX(-22deg); }
+  100% { transform: translateX(260%) skewX(-22deg); }
+}
+@keyframes pulsar-sutil {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 190, 26, 0.35); }
+  50% { box-shadow: 0 0 0 8px rgba(255, 190, 26, 0); }
+}
+
+/* Entrada do topo de cada página */
+.hero__img { animation: aproximar 2.2s var(--curva) both; transition: transform 1.2s var(--curva); }
+.hero:hover .hero__img { transform: scale(1.03); }
+.hero__barra { transform-origin: left; animation: crescer .7s var(--curva) .1s both; }
+.hero h1 { animation: subir .9s var(--curva) .15s both; }
+.hero__texto { animation: subir .9s var(--curva) .3s both; }
+.hero__botoes { animation: subir .9s var(--curva) .45s both; }
+
+/* Elementos que aparecem ao rolar a página (componente <Reveal>) */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(32px) scale(0.985);
+  transition: opacity var(--duracao) var(--curva), transform var(--duracao) var(--curva);
+  transition-delay: var(--atraso, 0s);
+}
+.js .reveal.visivel { opacity: 1; transform: none; }
+
+/* Barrinha amarela dos títulos cresce quando a seção aparece */
+.js .reveal .barra { transform: scaleX(0); transform-origin: left; transition: transform .6s var(--curva) .15s; }
+.js .reveal.visivel .barra { transform: scaleX(1); }
+
+/* Respeita quem desativou animações no sistema */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .js .reveal, .js .reveal .barra { opacity: 1; transform: none; }
+}

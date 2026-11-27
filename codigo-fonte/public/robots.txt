@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neodo.com.br/sitemap.xml
