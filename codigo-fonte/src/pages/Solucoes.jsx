@@ -12,8 +12,8 @@ import { competencias, servicos } from './_servicos.js';
 
 const exemplos = [
   [img.exPaineis, 'Painéis e automação', 'Painéis elétricos e sistemas de automação desenvolvidos sob medida, com organização, segurança e confiabilidade.'],
-  [img.exMonitoramento, 'Monitoramento e dados', 'Coleta, visualização e análise de dados em tempo real, com indicadores e alertas para uma operação mais eficiente.'],
   [img.exConectados, 'Sistemas inteligentes conectados', 'Equipamentos e processos integrados via IoT, com monitoramento contínuo, análise e controle remoto.'],
+  [img.exMonitoramento, 'Monitoramento e dados', 'Coleta, visualização e análise de dados em tempo real, com indicadores e alertas para uma operação mais eficiente.'],
 ];
 
 export default function Solucoes() {
