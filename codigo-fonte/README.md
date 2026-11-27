@@ -6,7 +6,7 @@ Site de neodo.com.br feito em React (Vite). Cada página é pré-gerada em HTML 
 
 | O que você quer mudar | Onde mexer |
 |---|---|
-| **Logo** | `src/assets/logo/logo.svg` (logo horizontal oficial, fundo branco, usada no cabeçalho) e `logo-negativo.svg` (fundo escuro, usada no rodapé). Ícone da aba e do celular: `public/favicon.svg` e `public/apple-touch-icon.png`. |
+| **Logo** | `src/assets/logo/logo.svg` (fundo branco) e `logo-negativo.svg` (fundo escuro). Substitua os arquivos mantendo o nome. Pode ser PNG: troque a extensão também em `src/config/imagens.js`. |
 | **Imagens** | `src/assets/img/`. Substitua o arquivo mantendo o mesmo nome. A lista completa, com a descrição de cada foto, está em `src/config/imagens.js`. |
 | **Telefone, e-mail, WhatsApp, LinkedIn, CNPJ** | `src/config/site.js` |
 | **Menu e títulos das páginas no Google** | `src/config/site.js` |
@@ -27,21 +27,10 @@ npm run dev        # abre em http://localhost:5173
 
 ## Publicar
 
-O GitHub Pages publica a **raiz** da branch `main` deste repositório. O código-fonte fica nesta pasta (`codigo-fonte`).
+Cada `git push` na branch `main` publica sozinho no GitHub Pages (`.github/workflows/deploy.yml`).
+No repositório: Settings > Pages > Source: **GitHub Actions**. Domínio personalizado: **neodo.com.br**.
 
-Depois de alterar algo:
-
-```bash
-cd codigo-fonte
-npm install          # só na primeira vez
-npm run publicar     # gera o site e copia para a raiz do repositório
-cd ..
-git add -A && git commit -m "Atualiza site" && git push
-```
-
-## Domínio neodo.com.br
-
-O site está no ar em https://neodo-solucoes.github.io. Para usar o domínio próprio, primeiro configure o DNS no Registro.br (zona do domínio neodo.com.br) e só depois informe o domínio no GitHub (Settings > Pages > Custom domain: **neodo.com.br**). Fazer na ordem inversa deixa o site fora do ar até o DNS propagar.
+DNS no Registro.br (zona do domínio neodo.com.br):
 
 | Tipo | Nome | Valor |
 |---|---|---|

@@ -4,7 +4,7 @@ export const site = {
   razaoSocial: 'NEODO ENGENHARIA LTDA',
   cnpj: '65.317.269/0001-41',
   dominio: 'https://neodo.com.br',
-  descricao: 'Elétrica, eletrônica, automação, software e inteligência artificial para indústria, negócios e residências.',
+  descricao: 'Elétrica, eletrônica, automação, software e inteligência artificial para indústria, residências e negócios.',
   email: 'atendimentoneodo@gmail.com',
   telefone: '(85) 98705-3309',
   telefoneIntl: '+55-85-98705-3309',

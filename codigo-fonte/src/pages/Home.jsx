@@ -57,7 +57,7 @@ export default function Home() {
 
       <Section id="perguntas" title="Perguntas frequentes" description="Tire suas principais dúvidas sobre as soluções, projetos e serviços da NEODO.">
         <Faq items={[
-          ['A NEODO atua apenas em projetos industriais?', 'Não. Atendemos indústria, negócios, como escritórios, comércios e serviços, e ambientes residenciais, com soluções de engenharia, automação, software e inteligência artificial adaptadas a cada necessidade.'],
+          ['A NEODO atua apenas em projetos industriais?', 'Não. Atendemos indústria, ambientes residenciais e negócios, como escritórios, comércios e serviços, com soluções de engenharia, automação, software e inteligência artificial adaptadas a cada necessidade.'],
           ['Vocês desenvolvem soluções personalizadas?', 'Sim. Cada projeto começa pelo entendimento do problema e é desenhado para a realidade do cliente, em vez de adaptar a operação a um produto pronto.'],
           ['Como é o processo de implementação de um projeto?', 'Começamos com um diagnóstico, definimos o projeto com escopo e prazos, executamos a implantação com testes e acompanhamos a operação depois da entrega.'],
           ['A NEODO também oferece suporte e manutenção?', 'Sim. Depois da implantação, acompanhamos a solução, fazemos a manutenção e evoluímos o sistema conforme surgem novas necessidades.'],

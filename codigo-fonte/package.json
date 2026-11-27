@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --outDir dist/client && vite build --ssr src/entry-server.jsx --outDir dist/server && node prerender.js",
-    "preview": "vite preview --outDir dist/site",
-    "publicar": "npm run build && node publicar.js"
+    "preview": "vite preview --outDir dist/site"
   },
   "dependencies": {
     "react": "^18.3.1",

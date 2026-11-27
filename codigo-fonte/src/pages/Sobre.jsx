@@ -54,7 +54,7 @@ export default function Sobre() {
       <Section id="perguntas" title="Perguntas frequentes" description="Tire suas principais dúvidas sobre a NEODO, nossa atuação e forma de trabalho.">
         <Faq items={[
           ['O que a NEODO faz?', 'Desenvolvemos soluções de engenharia e tecnologia que unem elétrica, eletrônica, automação, software e inteligência artificial, do diagnóstico ao suporte depois da entrega.'],
-          ['Em quais setores a NEODO atua?', 'Indústria, negócios, como escritórios, comércios e serviços, e residências.'],
+          ['Em quais setores a NEODO atua?', 'Indústria, residências e negócios, como escritórios, comércios e serviços.'],
           ['A NEODO desenvolve soluções personalizadas?', 'Sim. Cada solução é projetada a partir do problema e dos objetivos do cliente.'],
           ['Como funciona o processo de um projeto?', 'Diagnóstico, projeto, execução e evolução contínua. Escopo e prazos são definidos com o cliente antes do início da execução.'],
           ['A NEODO oferece suporte após a implantação?', 'Sim. Acompanhamos a solução, fazemos a manutenção e a evoluímos conforme novas necessidades.'],
