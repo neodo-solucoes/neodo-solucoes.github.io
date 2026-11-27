@@ -9,7 +9,7 @@ import heroHome from '../assets/img/hero-home.jpg';
 import heroSolucoes from '../assets/img/hero-solucoes.jpg';
 import heroIndustria from '../assets/img/hero-industria.jpg';
 import heroSobre from '../assets/img/hero-sobre.jpg';
-import heroContato from '../assets/img/hero-contato.jpg';
+import heroContato from '../assets/img/capa-contato.jpg';
 import segIndustria from '../assets/img/seg-industria.jpg';
 import segResidencial from '../assets/img/seg-residencial.jpg';
 import capaResidencial from '../assets/img/capa-residencial.jpg';
@@ -44,7 +44,7 @@ export const img = {
   heroSolucoes: { src: heroSolucoes, alt: 'Painel elétrico aberto ao lado de monitor com indicadores industriais' },
   heroIndustria: { src: heroIndustria, alt: 'Linha de produção automatizada com braços robóticos' },
   heroSobre: { src: heroSobre, alt: 'Engenheiros analisando um diagrama em monitor no laboratório' },
-  heroContato: { src: heroContato, alt: 'Reunião de equipe diante de tela com projeto de automação' },
+  heroContato: { src: heroContato, alt: 'Consultor da NEODO mostrando uma proposta no tablet para um cliente', posicao: '85% center' },
   // A mesma foto é usada na capa da página e no card da área (posicao = parte da foto que aparece no recorte).
   heroResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
   heroNegocios: { src: capaNegocios, alt: 'Loja de tecnologia com atendente mostrando informações no computador para uma cliente no balcão', posicao: '88% center' },
