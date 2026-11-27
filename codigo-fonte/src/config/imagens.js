@@ -7,10 +7,10 @@ import logoNegativo from '../assets/logo/logo-negativo.svg';
 
 import heroHome from '../assets/img/hero-home.jpg';
 import heroSolucoes from '../assets/img/hero-solucoes.jpg';
-import heroIndustria from '../assets/img/hero-industria.jpg';
+import heroIndustria from '../assets/img/capa-industria.jpg';
 import heroSobre from '../assets/img/capa-sobre.jpg';
 import heroContato from '../assets/img/capa-contato.jpg';
-import segIndustria from '../assets/img/seg-industria.jpg';
+import segIndustria from '../assets/img/card-industria.jpg';
 import segResidencial from '../assets/img/seg-residencial.jpg';
 import capaResidencial from '../assets/img/capa-residencial.jpg';
 import segNegocios from '../assets/img/seg-negocios.jpg';
@@ -42,13 +42,13 @@ export const logos = {
 export const img = {
   heroHome: { src: heroHome, alt: 'Braço robótico em linha de produção com painel de supervisão' },
   heroSolucoes: { src: heroSolucoes, alt: 'Painel elétrico aberto ao lado de monitor com indicadores industriais' },
-  heroIndustria: { src: heroIndustria, alt: 'Linha de produção automatizada com braços robóticos' },
+  heroIndustria: { src: heroIndustria, alt: 'Linha de produção automatizada com braço robótico amarelo e câmera de inspeção sobre a esteira', posicao: '72% center' },
   heroSobre: { src: heroSobre, alt: 'Equipe de engenharia da NEODO analisando o modelo 3D de uma peça em monitor, dentro de uma fábrica', posicao: '80% center' },
   heroContato: { src: heroContato, alt: 'Consultor da NEODO mostrando uma proposta no tablet para um cliente', posicao: '85% center' },
   // A mesma foto é usada na capa da página e no card da área (posicao = parte da foto que aparece no recorte).
   heroResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
   heroNegocios: { src: capaNegocios, alt: 'Loja de tecnologia com atendente mostrando informações no computador para uma cliente no balcão', posicao: '88% center' },
-  segIndustria: { src: segIndustria, alt: 'Instalação industrial com tubulações e estruturas metálicas' },
+  segIndustria: { src: segIndustria, alt: 'Braço robótico amarelo e câmera de inspeção em esteira com peças metálicas' },
   segResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
   featResidencial: { src: segResidencial, alt: 'Residência moderna iluminada ao anoitecer' },
   segNegocios: { src: cardNegocios, alt: 'Atendente de loja de tecnologia ajudando uma cliente no balcão' },
