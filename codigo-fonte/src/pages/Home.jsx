@@ -9,15 +9,8 @@ import CtaBand from '../components/CtaBand.jsx';
 import Button from '../components/Button.jsx';
 import { img } from '../config/imagens.js';
 import { segmentos } from './_shared.js';
+import { competencias } from './_servicos.js';
 
-const competencias = [
-  ['zap', 'Engenharia e conformidade', 'Projetos e instalações elétricas, adequação às NR-10, NR-12 e NR-35, auditorias internas, segurança do trabalho e treinamentos.'],
-  ['cpu', 'Eletrônica embarcada', 'Desenvolvimento de hardware e firmware para controle e aquisição de dados.'],
-  ['arm', 'Automação industrial', 'Controle, supervisão e otimização de processos e equipamentos.'],
-  ['radio', 'IoT e monitoramento', 'Conectividade de equipamentos, sensores e ambientes em tempo real.'],
-  ['code', 'Software e integrações', 'Sistemas sob medida e integração entre equipamentos, dados e plataformas.'],
-  ['brain', 'Inteligência artificial', 'Análise de dados, previsões e otimização para operações mais inteligentes.'],
-];
 const aplicacoes = [
   [img.appMonitoramento, 'Monitoramento de produção', 'Acompanhamento em tempo real de máquinas, processos e indicadores críticos.'],
   [img.appRetrofit, 'Retrofit de equipamentos', 'Modernização de máquinas e sistemas, ampliando desempenho, segurança e vida útil.'],

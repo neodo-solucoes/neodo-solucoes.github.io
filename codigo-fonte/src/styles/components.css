@@ -267,3 +267,22 @@ a.card:hover .card__seta { transform: translateX(5px); }
 @media (max-width: 760px) {
   .hero .onda { width: 100%; opacity: .3; }
 }
+
+/* ---------- Cards de competência com lista de serviços ---------- */
+.card--botao { width: 100%; height: 100%; font: inherit; text-align: left; cursor: pointer; }
+.card--botao:focus-visible { outline: 3px solid var(--cor-amarelo); outline-offset: 3px; }
+.card__ver { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 14px; font-weight: 700; color: var(--cor-marinho); }
+.card--botao:hover .card__seta { transform: translateX(5px); }
+.servicos { border: none; padding: 0; background: transparent; max-width: min(560px, calc(100% - 32px)); width: 100%; }
+.servicos::backdrop { background: rgba(6, 23, 48, .62); backdrop-filter: blur(3px); }
+.servicos[open] { animation: abrir-janela .35s var(--curva); }
+.servicos__caixa { background: #fff; border-radius: var(--raio); padding: 28px; box-shadow: var(--sombra-hover); }
+.servicos__topo { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+.servicos__titulo { flex: 1; font-size: 21px; font-weight: 800; color: var(--cor-texto); }
+.servicos__fechar { width: 40px; height: 40px; border: 1px solid var(--cor-borda); border-radius: var(--raio-botao); background: #fff; font-size: 24px; line-height: 1; color: var(--cor-texto-suave); cursor: pointer; }
+.servicos__fechar:hover { border-color: var(--cor-amarelo); color: var(--cor-texto); }
+.servicos__lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.servicos__lista li { display: flex; gap: 10px; align-items: flex-start; font-size: 15.5px; line-height: 1.45; color: var(--cor-texto); }
+.servicos__lista svg { color: var(--cor-amarelo); flex-shrink: 0; margin-top: 2px; }
+.servicos__acoes { margin-top: 24px; }
+@keyframes abrir-janela { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }

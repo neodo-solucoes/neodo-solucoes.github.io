@@ -8,15 +8,8 @@ import CtaBand from '../components/CtaBand.jsx';
 import Button from '../components/Button.jsx';
 import { img } from '../config/imagens.js';
 import { segmentos } from './_shared.js';
+import { competencias, servicos } from './_servicos.js';
 
-const competencias = [
-  ['zap', 'Engenharia e conformidade', 'Projetos e instalações elétricas, adequação às NR-10, NR-12 e NR-35, auditorias internas, segurança do trabalho e treinamentos.'],
-  ['cpu', 'Eletrônica embarcada', 'Desenvolvimento de hardware e firmware para controle, aquisição de dados e aplicações industriais.'],
-  ['arm', 'Automação industrial', 'Controle, supervisão e otimização de processos, aumentando produtividade, qualidade e rastreabilidade.'],
-  ['radio', 'IoT e monitoramento', 'Conectividade de equipamentos, sensores e ambientes em tempo real, com visibilidade e gestão remota.'],
-  ['code', 'Software e integrações', 'Sistemas sob medida e integração entre equipamentos, dados e plataformas, com robustez e escalabilidade.'],
-  ['brain', 'Inteligência artificial', 'Análise de dados, predição de cenários e apoio à tomada de decisão, gerando mais eficiência e valor.'],
-];
 const exemplos = [
   [img.exPaineis, 'Painéis e automação', 'Painéis elétricos e sistemas de automação desenvolvidos sob medida, com organização, segurança e confiabilidade.'],
   [img.exMonitoramento, 'Monitoramento e dados', 'Coleta, visualização e análise de dados em tempo real, com indicadores e alertas para uma operação mais eficiente.'],
@@ -33,7 +26,7 @@ export default function Solucoes() {
         <Button to="/contato" variant="contorno">Falar com a NEODO</Button>
       </Hero>
       <Section id="competencias" title="Nossas competências" description="Áreas que se conectam para criar soluções completas, eficientes, seguras e inteligentes.">
-        <Grid min={320} gap={18}>{competencias.map(([icon, title, text], i) => <IconCard key={title} index={i} icon={icon} title={title} text={text} />)}</Grid>
+        <Grid min={320} gap={18}>{competencias.map(([icon, title, text], i) => <IconCard key={title} index={i} icon={icon} title={title} text={text} servicos={servicos[title]} />)}</Grid>
       </Section>
       <Section id="segmentos" title="Soluções por segmento" description="Aplicamos tecnologia e engenharia em diferentes contextos, com soluções sob medida para cada necessidade.">
         <Grid>{segmentos.map((s, i) => <PhotoCard key={s.title} index={i} {...s} />)}</Grid>

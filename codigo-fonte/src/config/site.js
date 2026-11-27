@@ -27,7 +27,7 @@ export const menu = [
 // Título e descrição de cada página (aparecem no Google e na aba do navegador).
 export const routes = [
   { path: '/', title: 'NEODO Soluções Inteligentes | Engenharia, automação e tecnologia', description: site.descricao },
-  { path: '/solucoes', title: 'Soluções', description: 'Engenharia e conformidade, eletrônica embarcada, automação industrial, IoT, software e inteligência artificial.' },
+  { path: '/solucoes', title: 'Soluções', description: 'Engenharia e conformidade, eletrônica embarcada, automação industrial e IoT, software e IA, e automação para negócios e residências.' },
   { path: '/industria', title: 'Indústria', description: 'Automação industrial, retrofit, IoT, visão computacional, dashboards e integração de sistemas para a sua indústria.' },
   { path: '/negocios', title: 'Negócios', description: 'Software sob demanda, agentes de IA para atendimento, integrações, sites e infraestrutura para empresas.' },
   { path: '/residencial', title: 'Residencial', description: 'Instalações elétricas, automação residencial, controle por voz, câmeras e segurança para a sua casa.' },
