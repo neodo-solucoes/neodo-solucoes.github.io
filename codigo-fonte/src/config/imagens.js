@@ -8,7 +8,7 @@ import logoNegativo from '../assets/logo/logo-negativo.svg';
 import heroHome from '../assets/img/hero-home.jpg';
 import heroSolucoes from '../assets/img/hero-solucoes.jpg';
 import heroIndustria from '../assets/img/hero-industria.jpg';
-import heroSobre from '../assets/img/hero-sobre.jpg';
+import heroSobre from '../assets/img/capa-sobre.jpg';
 import heroContato from '../assets/img/capa-contato.jpg';
 import segIndustria from '../assets/img/seg-industria.jpg';
 import segResidencial from '../assets/img/seg-residencial.jpg';
@@ -43,7 +43,7 @@ export const img = {
   heroHome: { src: heroHome, alt: 'Braço robótico em linha de produção com painel de supervisão' },
   heroSolucoes: { src: heroSolucoes, alt: 'Painel elétrico aberto ao lado de monitor com indicadores industriais' },
   heroIndustria: { src: heroIndustria, alt: 'Linha de produção automatizada com braços robóticos' },
-  heroSobre: { src: heroSobre, alt: 'Engenheiros analisando um diagrama em monitor no laboratório' },
+  heroSobre: { src: heroSobre, alt: 'Equipe de engenharia da NEODO analisando o modelo 3D de uma peça em monitor, dentro de uma fábrica', posicao: '80% center' },
   heroContato: { src: heroContato, alt: 'Consultor da NEODO mostrando uma proposta no tablet para um cliente', posicao: '85% center' },
   // A mesma foto é usada na capa da página e no card da área (posicao = parte da foto que aparece no recorte).
   heroResidencial: { src: capaResidencial, alt: 'Casa moderna iluminada ao anoitecer, com jardim e garagem com carregador de carro elétrico', posicao: '70% center' },
